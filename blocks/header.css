@@ -1,0 +1,78 @@
+.header {
+  position: relative;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__title {
+  max-width: 709px;
+  position: static;
+  margin-top: 183px;
+  margin-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  max-width: 683px;
+  position: static;
+  margin-top: 28px;
+  margin-left: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__schedule {
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+  list-style: none;
+}
+
+.header__paragraph {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
